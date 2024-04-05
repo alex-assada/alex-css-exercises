@@ -1,0 +1,17 @@
+.class-odd {
+    color: black;
+    background-color: #f89b9b;
+    font-family: Verdana, "Verdana Sans", sans-serif;
+}
+
+#id-one {
+    color: blue;
+    font-size: 36px;
+}
+
+#id-two {
+    color: black;
+    background-color: rgb(142, 247, 142);
+    font-size: 24px;
+    font-weight: bold;
+}
