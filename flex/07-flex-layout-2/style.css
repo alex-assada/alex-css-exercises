@@ -5,25 +5,84 @@ body {
 }
 
 .header {
+  display: flex;
+  align-items: center;
   height: 72px;
   background: darkmagenta;
   color: white;
+  font-size: 32px;
+  font-weight: 900;
+  padding-left: 16px;
+}
+
+.content {
+  display: flex;
+}
+
+.card-rows {
+  display: flex;
+  flex: 1;
+  flex-basis: auto;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.card-row-one {
+  display: flex;
+  flex: 1;
+  flex-wrap:wrap;
+}
+
+.card-row-two {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
+  display: flex;
+  flex-shrink: 0;
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
 }
 
+a {
+  color: white;
+  font-size: 25px;
+  text-decoration: none;
+}
+
+li {
+  color: white;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
 .card {
+  display: flex;
+  flex: 1;
+  height: 300px;
+  width: 300px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  margin: 40px;
+  padding: 20px;
 }
+
+
